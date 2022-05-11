@@ -1,0 +1,15 @@
+*{
+    overflow: hidden;
+}
+.button{
+border: 1px solid black;
+width: 100px;
+color: white;
+background: none;
+}
+.button:hover{
+    background-color: black;
+    color:white;
+    transition: 0.5s;
+    
+}
