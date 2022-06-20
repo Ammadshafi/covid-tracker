@@ -1,15 +1,47 @@
+@import url("https://fonts.googleapis.com/css2?family=Nosifer&display=swap");
 *{
-    overflow: hidden;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Nosifer' !important;
+    background-image: url(./assets/images/bg2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 80vh;
+    /* filter: blur(8px);
+     */
+    backdrop-filter: blur(8px) ;
+  
+}
+
+.logo{
+    height: 100px;
+    
+    
+    
+}
+.shadow{
+    box-shadow: 2px 2px 10px 10px rgba(37, 37, 37, 0.732);
+
 }
 .button{
-border: 1px solid black;
-width: 100px;
-color: white;
-background: none;
+    min-height: 100% !important;
 }
-.button:hover{
-    background-color: black;
+.input{
     color:white;
-    transition: 0.5s;
-    
+    background-image: linear-gradient(red, yellow)
+
+}
+.bg-main{
+    /* background-color: red;
+     */
+     background-image: linear-gradient(red, yellow)
+}
+.flag{
+    height: 80px;
+    width: 150px;
+}
+.text-main{
+    color:linear-gradient(red, yellow) ;
 }
